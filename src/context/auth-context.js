@@ -22,7 +22,7 @@ const AuthProvider = props => {
 
   const login = useCallback(async data => {
     try {
-      const { token, ...user } = await authLogin(data)
+      const { token, user } = await authLogin(data)
       setToken(token)
       reload()
 
