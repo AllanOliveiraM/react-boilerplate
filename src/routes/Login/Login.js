@@ -28,7 +28,7 @@ const Login = () => {
         name='email'
         register={register}
         label='E-mail'
-        placeholder='example@example.com'
+        placeholder='exemplo@exemplo.com'
         error={errors.email?.message}
       />
       <Input
